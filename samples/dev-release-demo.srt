@@ -1,0 +1,15 @@
+1
+00:00:01,000 --> 00:00:04,500
+Alright devs, in this release we finally crushed that nasty race condition in the auth pipeline!
+
+2
+00:00:05,000 --> 00:00:08,800
+No more hacky workarounds or spaghetti code — we completely refactored the async state machine.
+
+3
+00:00:09,200 --> 00:00:13,000
+Just run npm run dev and the hot module replacement will work out of the box like a charm.
+
+4
+00:00:13,500 --> 00:00:17,800
+If you hit any snag with the API tokens, ping us on Discord before pushing straight to prod.

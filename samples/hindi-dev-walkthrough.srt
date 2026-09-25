@@ -1,0 +1,59 @@
+﻿1
+00:00:01,000 --> 00:00:04,500
+Yaar, aaj hum IBM Bob 2.0 hackathon mein kuch dhamakedar banana chahte hain!
+
+2
+00:00:05,000 --> 00:00:09,000
+Pehle repo clone karo aur npm install chalao — Node v18 hona chahiye bhai, warna lafda ho jaayega.
+
+3
+00:00:09,600 --> 00:00:13,800
+Humne ek bada jugaad kiya — auth pipeline ki race condition ko async locks se seedha theek kar diya!
+
+4
+00:00:14,400 --> 00:00:18,200
+VITE_HF_API_KEY apne .env file mein daalo, warna poora system dhap se girega — bilkul seedhi baat.
+
+5
+00:00:18,800 --> 00:00:23,000
+{apiKey} aur {userName} jaise variables ko LLM touch nahi kar sakta — token protector unhe guard karta hai.
+
+6
+00:00:23,600 --> 00:00:27,500
+Spaghetti code ka zamaana gaya — ab clean architecture aur async state machine se kaam chalega, dost.
+
+7
+00:00:28,000 --> 00:00:32,200
+npm run dev chalao aur HMR apne aap kaam karega — koi jhanjhat nahi, seedha kaam pe focus karo.
+
+8
+00:00:32,800 --> 00:00:37,000
+Kuch toot jaaye toh bhai ghbhrao mat — Discord pe ping karo, team milke solve karti hai, ekdum bindaas!
+
+9
+00:00:37,600 --> 00:00:41,800
+Translation Memory IndexedDB mein check karta hai pehle — agar cache hit hai toh API call hi nahi hogi, zabardast!
+
+10
+00:00:42,400 --> 00:00:46,500
+Quality score har line ka Shannon entropy aur token survival se nikalta hai — koi andhera nahi, sab transparent.
+
+11
+00:00:47,000 --> 00:00:51,200
+Cultural Risk Scanner deploy se pehle flag karta hai — critical, caution, ya safe — bilkul ek linter ki tarah.
+
+12
+00:00:51,800 --> 00:00:56,000
+"Do dilon ki ek dhadkan" jaisi expression Japanese market mein ekdum flop ho jaayegi — critical risk flagged!
+
+13
+00:00:56,600 --> 00:01:01,000
+IBM Granite 3.1 CLI flags ko preserve karta hai aur tone culturally adapt karta hai — yahi hai asli transcreation.
+
+14
+00:01:01,600 --> 00:01:05,800
+Ek click mein .srt export karo — usme QE score bhi NOTE lines mein embedded hoga downstream tools ke liye.
+
+15
+00:01:06,400 --> 00:01:10,500
+Yeh hai TransCreate — IBM Bob 2.0 ke saath 48 ghante mein banaya. Cultural intelligence, zero corruption. Jai ho!
