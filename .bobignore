@@ -1,0 +1,31 @@
+# IBM Bob Ignore File
+# Prevents sensitive credentials, environment variables, and build outputs from being exposed or indexed
+
+.env
+.env.local
+.env.*.local
+*.env
+*.pem
+*.key
+*.cert
+*.crt
+
+# Dependency directories
+node_modules/
+
+# Production build artifacts
+dist/
+build/
+.cache/
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.wmv
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
