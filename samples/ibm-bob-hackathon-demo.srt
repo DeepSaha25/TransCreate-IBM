@@ -1,0 +1,12 @@
+﻿1
+00:00:01,000 --> 00:00:04,200
+Alright team, let's kick off the IBM Bob 2.0 hackathon build — 48 hours on the clock!
+
+2
+00:00:04,800 --> 00:00:08,500
+First thing, clone the repo and run npm install — make sure your Node version is v18 or above.
+
+3
+00:00:13,600 --> 00:00:17,400
+Set your VITE_HF_API_KEY in the .env file, or the whole thing falls flat on its face, mate.
+
