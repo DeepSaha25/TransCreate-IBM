@@ -5,7 +5,7 @@
 
 ---
 
-## 📋 1. Submission Deliverables & Metadata
+## 1. Submission Deliverables & Metadata
 
 ### Project Title
 `TransCreate — Autonomous i18n & Media Localization Workflow for Developers`
@@ -25,7 +25,7 @@
 
 ---
 
-## 📝 2. Problem & Solution Statement (Long Description)
+## 2. Problem & Solution Statement (Long Description)
 *Word count: 428 words (Limit: 500 words)*
 
 ### The Specific Developer Workflow Problem
@@ -54,7 +54,7 @@ TransCreate integrates directly into the software release lifecycle, reducing lo
 
 ---
 
-## 🤖 3. IBM Bob Usage Statement
+## 3. IBM Bob Usage Statement
 *Word count: 420 words (Limit: 500 words)*
 
 ### How Our Team Utilized IBM Bob 2.0
@@ -78,7 +78,7 @@ By partnering with IBM Bob 2.0, our team reduced feature development time by ove
 
 ---
 
-## 📸 4. Step-by-Step IBM Bob 2.0 Session Prompts (For Screenshots)
+## 4. Step-by-Step IBM Bob 2.0 Session Prompts (For Screenshots)
 
 > **Submission Requirement:** The hackathon rules state:  
 > *"Your repository must also include each team member's screenshots of IBM Bob task session summaries for your project."*  
@@ -140,7 +140,7 @@ By partnering with IBM Bob 2.0, our team reduced feature development time by ove
 
 ---
 
-## 🎥 5. 3-Minute Video Demonstration Script
+## 5. 3-Minute Video Demonstration Script
 
 > **Hackathon Requirement:** Max 3 minutes. At least 90 seconds must show the solution in action. Must clearly show IBM Bob usage with narration.
 
@@ -155,7 +155,7 @@ By partnering with IBM Bob 2.0, our team reduced feature development time by ove
 
 ---
 
-## 📊 6. Slide Presentation Deck Outline (7 Slides)
+## 6. Slide Presentation Deck Outline (7 Slides)
 
 - **Slide 1: Title Slide**
   - Title: TransCreate
@@ -175,11 +175,11 @@ By partnering with IBM Bob 2.0, our team reduced feature development time by ove
   - Multi-locale adaptation across 20 global tech ecosystems.
 
 - **Slide 4: Key Features & Developer Capabilities**
-  - 🛡️ Code & Variable Guard (preserves syntax & placeholders)
-  - 🚦 Pre-Release Cultural Risk Linter (Critical / Caution / Safe)
-  - 🎭 Theatrical Emotion & Pronunciation Tags for Voice Actors
-  - 🌐 Multi-Culture Parallel Comparison Grid
-  - 📊 Word Count Drift & Velocity Analytics
+  - Code & Variable Guard (preserves syntax & placeholders)
+  - Pre-Release Cultural Risk Linter (Critical / Caution / Safe)
+  - Theatrical Emotion & Pronunciation Tags for Voice Actors
+  - Multi-Culture Parallel Comparison Grid
+  - Word Count Drift & Velocity Analytics
 
 - **Slide 5: Built with IBM Bob 2.0**
   - Full Repository Context navigation across React, TypeScript, and LangChain.

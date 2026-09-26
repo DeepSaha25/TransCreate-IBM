@@ -14,7 +14,7 @@
 
 ---
 
-## 🌐 Live Application
+## Live Application
 
 | Resource | Link |
 |---|---|
@@ -25,22 +25,22 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-1. [Problem Statement](#-the-developer-workflow-problem)
-2. [Solution: TransCreate](#-the-solution-transcreate)
-3. [Key Features](#-key-features)
-4. [IBM Bob 2.0 — Usage & Sessions](#-ibm-bob-20--usage--sessions)
-5. [Architecture & Tech Stack](#-architecture--tech-stack)
-6. [AI Pipeline Deep Dive](#-ai-pipeline-deep-dive)
-7. [How to Run Locally](#-how-to-run-locally)
-8. [Sample Files](#-sample-files)
-9. [Project Structure](#-project-structure)
-10. [License](#-license)
+1. [Problem Statement](#the-developer-workflow-problem)
+2. [Solution: TransCreate](#the-solution-transcreate)
+3. [Key Features](#key-features)
+4. [IBM Bob 2.0 — Usage & Sessions](#ibm-bob-20--usage--sessions)
+5. [Architecture & Tech Stack](#architecture--tech-stack)
+6. [AI Pipeline Deep Dive](#ai-pipeline-deep-dive)
+7. [How to Run Locally](#how-to-run-locally)
+8. [Sample Files](#sample-files)
+9. [Project Structure](#project-structure)
+10. [License](#license)
 
 ---
 
-## ⚡ The Developer Workflow Problem
+## The Developer Workflow Problem
 
 When engineering, DevRel, and product teams prepare a global software release, localizing video assets is one of the highest-friction bottlenecks in the developer lifecycle:
 
@@ -53,18 +53,18 @@ When engineering, DevRel, and product teams prepare a global software release, l
 
 ---
 
-## 🚀 The Solution: TransCreate
+## The Solution: TransCreate
 
 **TransCreate** is an autonomous media localization studio designed specifically for developers. Instead of literal translation, it performs **cultural transcreation** — adapting the *technical and emotional intent* of developer scripts and subtitle files across 20 global cultures, while making token corruption **architecturally impossible**.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🛡️ Token Protection Pipeline
+### Token Protection Pipeline
 Before any text reaches the LLM, a 12-pattern regex engine extracts technical tokens — CLI commands, `{variable}` interpolations, file paths, version strings, URLs — replacing them with opaque `__TK0__` sentinels. After generation, tokens are rehydrated. The LLM *never sees* actual token content.
 
-### 📊 Quality Estimation Engine
+### Quality Estimation Engine
 Without a reference translation, quality is estimated using four statistical signals:
 - **Length Ratio** (30%) — prevents UI truncation
 - **Token Survival Rate** (40%) — confirms code tokens survived intact
@@ -73,30 +73,30 @@ Without a reference translation, quality is estimated using four statistical sig
 
 Each line receives a score (0–100) and letter grade (A–F).
 
-### 💾 IndexedDB Translation Memory
+### IndexedDB Translation Memory
 Every successful transcreation is cached in the browser's IndexedDB using an FNV-1a 32-bit hash key of `(source_text | source_culture | target_culture)`. Cache hits return instantly — zero API calls, zero latency.
 
-### 🚦 Cultural Risk Scanner
+### Cultural Risk Scanner
 Scans every adapted line for cultural sensitivity, categorizing as:
-- 🔴 **Critical** — Likely to offend or confuse
-- 🟡 **Caution** — May require review
-- 🟢 **Safe** — Culturally appropriate
+- **Critical** — Likely to offend or confuse
+- **Caution** — May require review
+- **Safe** — Culturally appropriate
 
-### 🌐 Multi-Culture Parallel Comparison
+### Multi-Culture Parallel Comparison
 Compare a single developer line across 20 target cultures simultaneously — Japanese, Hindi, French, German, Brazilian Portuguese, Swahili, and more.
 
-### 🎭 Cultural Glossary Generator
+### Cultural Glossary Generator
 Extracts technical and cultural terms from your entire script and generates a full adaptation table across all target cultures.
 
-### 🔊 Web Speech API TTS Preview
+### Web Speech API TTS Preview
 Audition every transcreated line with native browser TTS, matched to the target culture's voice profile.
 
-### 📁 SRT & JSON Export
+### SRT & JSON Export
 One-click export to production-ready `.srt` subtitle files and `.json` glossaries.
 
 ---
 
-## 🤖 IBM Bob 2.0 — Usage & Sessions
+## IBM Bob 2.0 — Usage & Sessions
 
 > IBM Bob 2.0 was the co-architect of TransCreate — not a peripheral tool. It reduced debugging and architecture review time by an estimated **70%** during the 48-hour hackathon window.
 
@@ -218,7 +218,7 @@ onLineComplete()     TranscreatedLine { qeScore: 97, qeGrade: 'A', tmCacheHit, t
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 ```
    ┌──────────────────────────────────────────────────────┐
@@ -281,7 +281,7 @@ onLineComplete()     TranscreatedLine { qeScore: 97, qeGrade: 'A', tmCacheHit, t
 
 ---
 
-## 🔬 AI Pipeline Deep Dive
+## AI Pipeline Deep Dive
 
 ### Token Protection (`src/utils/tokenProtector.ts`)
 ```typescript
@@ -316,7 +316,7 @@ Final score 0–100, Grade A–F
 
 ---
 
-## 🏃 How to Run Locally
+## How to Run Locally
 
 ### Prerequisites
 - Node.js 18+
@@ -353,21 +353,21 @@ npm run build
 
 ---
 
-## 🧪 Quick Demo Walkthrough
+## Quick Demo Walkthrough
 
 1. Open the **Studio** at `/studio`
-2. Click **⚡ Load Developer Demo** inside the upload zone (loads `samples/ibm-bob-hackathon-demo.srt`)
+2. Click **Load Developer Demo** inside the upload zone (loads `samples/ibm-bob-hackathon-demo.srt`)
 3. Select **English (US)** → **French (France)** as the target culture
-4. Click **🔴 Scan Cultural Risks** — see lines classified as Safe / Caution / Critical
-5. Click **✨ Transcreate All** — watch lines adapt with cultural rationale, QE scores, and token survival rates
-6. Click the **🔊 speaker icon** on any card to audition TTS pronunciation
+4. Click **Scan Cultural Risks** — see lines classified as Safe / Caution / Critical
+5. Click **Transcreate All** — watch lines adapt with cultural rationale, QE scores, and token survival rates
+6. Click the **speaker icon** on any card to audition TTS pronunciation
 7. Switch to the **Compare** tab to see the same line across 6 cultures simultaneously
 8. Open **Analytics** to view the QE Score Timeline, Risk Distribution, and Cache Hit Rate charts
 9. Click **Export .SRT** to download the production-ready subtitle file
 
 ---
 
-## 📁 Sample Files
+## Sample Files
 
 | File | Description |
 |---|---|
@@ -379,7 +379,7 @@ npm run build
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 TransCreate-IBM/
@@ -436,7 +436,7 @@ TransCreate-IBM/
 
 ---
 
-## 🏆 Hackathon Submission
+## Hackathon Submission
 
 | Field | Value |
 |---|---|
@@ -450,7 +450,7 @@ TransCreate-IBM/
 
 ---
 
-## 📄 License
+## License
 
 MIT License — compliant with IBM Bob 2.0 Hackathon and lablab.ai terms.
 
