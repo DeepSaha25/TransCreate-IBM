@@ -16,6 +16,13 @@
 ### Technology & Category Tags
 `Developer Tools`, `Workflow Automation`, `IBM Bob 2.0`, `IBM Granite`, `i18n & Localization`, `LangChain`, `React`, `TypeScript`, `DevRel`, `Release Engineering`, `Quality Estimation`, `Translation Memory`, `IndexedDB`, `Token Protection`
 
+### Public Code Repository
+[https://github.com/DeepSaha25/TransCreate-IBM](https://github.com/DeepSaha25/TransCreate-IBM)
+
+### Live Demo Application Platform & URL
+- **Platform:** Vercel
+- **URL:** [https://transcreate-ibm.vercel.app/](https://transcreate-ibm.vercel.app/)
+
 ---
 
 ## 📝 2. Problem & Solution Statement (Long Description)

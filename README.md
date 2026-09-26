@@ -4,11 +4,14 @@
 > 
 > *Built for the IBM Bob 2.0 Hackathon — Developer Workflow Challenge (September 25–27, 2026)*
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-transcreate--ibm.vercel.app-success?style=flat-square&logo=vercel)](https://transcreate-ibm.vercel.app/)
 [![IBM Bob 2.0](https://img.shields.io/badge/AI%20Dev%20Partner-IBM%20Bob%202.0-blue?style=flat-square)](https://bob.ibm.com)
 [![IBM Granite](https://img.shields.io/badge/Model-IBM%20Granite%203.1-orange?style=flat-square)](https://huggingface.co/ibm-granite/granite-3.1-8b-instruct)
 [![React 19](https://img.shields.io/badge/React-19-61dafb?style=flat-square)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-6.0-3178c6?style=flat-square)](https://www.typescriptlang.org)
 [![Vite](https://img.shields.io/badge/Vite-8.1-646cff?style=flat-square)](https://vitejs.dev)
+
+> 🌐 **Live Application:** [https://transcreate-ibm.vercel.app/](https://transcreate-ibm.vercel.app/)
 
 ---
 
