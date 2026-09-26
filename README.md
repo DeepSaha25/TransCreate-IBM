@@ -5,6 +5,7 @@
 > *IBM Bob 2.0 Hackathon — Developer Workflow Challenge | September 25–27, 2026 | $12,000 Prize Pool*
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-transcreate--ibm.vercel.app-success?style=flat-square&logo=vercel)](https://transcreate-ibm.vercel.app/)
+[![Demo Video](https://img.shields.io/badge/Demo%20Video-YouTube-red?style=flat-square&logo=youtube)](https://www.youtube.com/watch?v=-KjR6KmUScw)
 [![IBM Bob 2.0](https://img.shields.io/badge/AI%20Dev%20Partner-IBM%20Bob%202.0-blue?style=flat-square)](https://bob.ibm.com)
 [![IBM Granite](https://img.shields.io/badge/Model-IBM%20Granite%203.1%208B-orange?style=flat-square)](https://huggingface.co/ibm-granite/granite-3.1-8b-instruct)
 [![React 19](https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react)](https://react.dev)
@@ -20,6 +21,7 @@
 |---|---|
 | **Live Demo** | https://transcreate-ibm.vercel.app/ |
 | **Studio (main feature)** | https://transcreate-ibm.vercel.app/studio |
+| **Demo Video (Product + Bob)** | https://www.youtube.com/watch?v=-KjR6KmUScw |
 | **Public Repository** | https://github.com/DeepSaha25/TransCreate-IBM |
 | **Hackathon** | IBM Bob 2.0 Hackathon — lablab.ai |
 
@@ -445,6 +447,7 @@ TransCreate-IBM/
 | **Team** | Deep Saha (Solo) |
 | **Submission Date** | September 26, 2026 |
 | **Live Demo** | https://transcreate-ibm.vercel.app/ |
+| **Demo Video** | https://www.youtube.com/watch?v=-KjR6KmUScw |
 | **Repository** | https://github.com/DeepSaha25/TransCreate-IBM |
 | **IBM Bob Evidence** | `Bob screnshots/` directory + `BOB_SESSIONS.md` |
 

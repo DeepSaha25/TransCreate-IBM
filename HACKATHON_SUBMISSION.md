@@ -23,6 +23,10 @@
 - **Platform:** Vercel
 - **URL:** [https://transcreate-ibm.vercel.app/](https://transcreate-ibm.vercel.app/)
 
+### Video Demonstration (Product & IBM Bob 2.0)
+- **YouTube URL:** [https://www.youtube.com/watch?v=-KjR6KmUScw](https://www.youtube.com/watch?v=-KjR6KmUScw)
+- **Coverage:** Full product walkthrough + IBM Bob 2.0 usage demonstration
+
 ---
 
 ## 2. Problem & Solution Statement (Long Description)
